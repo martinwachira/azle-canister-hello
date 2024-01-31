@@ -1,0 +1,13 @@
+{
+    "canisters": {
+        "hello-world": {
+            "type": "custom",
+            "main": "src/index.ts",
+            "candid": "src/index.did",
+            "build": "npx azle hello-world",
+            "wasm": ".azle/hello-world/hello-world.wasm",
+            "gzip": true
+        }
+    }
+}
+
